@@ -34,7 +34,8 @@
         "yarn": "^1.5.1",
         "zone.js": "^0.8.20",
         "@angular/cli": "^1.7.3",
-        "@angular/compiler-cli": "^5.2.9"
+        "@angular/compiler-cli": "^5.2.9",
+        "typescript": "^2.4.2"
     },
     "devDependencies": {
         "@angular/cli": "^1.7.3",
