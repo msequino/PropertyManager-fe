@@ -4,7 +4,9 @@
     "license": "Apache",
     "scripts": {
         "ng": "ng",
-        "start": "ng serve --aot",
+        "start": "http-server",
+        "preinstall": "npm install -g http-server",
+        "postinstall": "ng build && mv dist/* .",
         "build": "ng build --prod",
         "gitbuild": "ng build --prod --base /start-angular/SB-Admin-BS4-Angular-5/master/dist/",
         "test": "ng test",
